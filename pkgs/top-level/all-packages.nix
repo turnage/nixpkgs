@@ -3660,6 +3660,8 @@ in
 
   vorta = python3Packages.callPackage ../applications/backup/vorta { };
 
+  cryptomator = callPackage ../applications/backup/cryptomator {};
+
   utahfs = callPackage ../applications/networking/utahfs { };
 
   wallutils = callPackage ../tools/graphics/wallutils { };
